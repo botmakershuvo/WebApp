@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: #303030;
+    background-color: #f5f5fb;
+}
+
+#page{
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex-wrap: nowrap;
+    height: 745px;
+}
+
+.container{
+    z-index: 5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 1.5%;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    height: 72px;
+    max-width: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(52,46,173,0.25),
+                0 15px 30px 0 rgba(52,46,173,0.2);
+}
+
+.menu-item{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    text-decoration : none;
+}
+
+.menu-item:hover i{
+    color: #342ead;
+}
+.menu-item:hover .menu-item-label{
+    color: #342ead;
+}
+
+.menu-item i {
+    margin-bottom: 4px;
+    font-size: 26px;
+    color: #aeabde;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease;
+}
+
+.menu-item-label{
+    font-size: 13px;
+    color: #c2c0e6;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease;
+}
+
+.pane{
+    flex: 0 0 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.i {
+  height: 100vh;
+  flex: 0 0 100vw;
+}
+
+.pane h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.active > i, .active > .menu-item-label{
+    color: #342ead !important;
+}

@@ -1,0 +1,201 @@
+.main-content {
+  margin-top: 3px;
+  background-color: none;
+  width:100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.copyfield{
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#link{
+    width: 350px;
+    padding: 12px 10px;
+    border: 1px solid #212121;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    overflow-x: scroll;
+}
+#link::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+h1,p {
+  color: black;
+}
+
+.in-button {
+  height: 50px;
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #56A5EC;
+  color: white;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.inn-button {
+  height: 50px;
+  width: 13%;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #56A5EC;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+
+.main-gf {
+  width: 100%;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.main-img {
+  height: 61px;
+  width: 14.5%;
+  margin-top: 20px;
+}
+
+.tow-content {
+  margin-top: 15px;
+  
+  background-color: none;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.1rem;
+}
+
+.tow22-content {
+  margin-bottom: 25px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.1rem;
+  background-color: none;
+}
+
+.main-ref {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #f1f1f1;
+}
+
+.ref-content {
+}
+
+.chat-type {
+    width: 80%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 12px 0%;
+    background: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#h2 {
+  font-size: 20px;
+}
+
+#p2 {
+  font-size: 13px;
+  color: black;
+}
+
+.First-TX {
+  font-size: nonepx;
+}
+
+.chat-tow {
+    width: 80%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 12px 0%;
+    background: #FFFFFF;
+    margin-left: 20px;
+}
+
+.heleo-hd {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 225px;
+  width: 90%;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  align-content: center;
+}
+
+.icon-rf {
+  height: 45px;
+  width: 45px;
+}
+
+.Frind {
+  height: 20px;
+  width: 100%;
+  margin-top: 40px;
+  background: none;
+}
+
+#frind {
+  margin-left: 25px;
+  font-weight: 100px;
+}
+
+.message-type {
+    flex-grow: 1;
+}
+
+#ref-box {
+  height: 230px;
+  width: 93%;
+  background: #FFFFFF;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
